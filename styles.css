@@ -1,0 +1,96 @@
+body {
+    /*background-color: #e0e0e0;*/
+    background-color: #f6f6f6;
+    font-family: 'Roboto';
+}
+
+/* Navbar ***********************************************************************/
+.navbar-brand {
+    line-height: 23px;
+}
+
+.lead text-secondary {
+    color: #7d7e80;
+}
+
+.nav-item {
+    display:inline-block;
+    justify-content:space-between;
+    align-items:center; 
+}
+
+.nav-link {
+    color: rgba(0, 0, 0, 0.543);
+}
+
+/* Problem ***********************************************************************/
+.text-box {
+    width: 85vh;
+}
+
+
+/* Team Page *********************************************************************/
+.team {
+    margin-top: 145px;
+}
+
+.team-header {
+    width: 85vh;
+    margin-top: 200px;
+}
+
+.team-member {
+    border: 1px solid rgba(0,0,0,.125);;
+    display: flex;
+    justify-content: center;
+    height: 750px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.member-image {
+    height:350px;
+    width: 270px;
+    border-radius: 5px;
+    margin-top: 35px;
+}
+
+.member-name {
+    display: block;
+    font-size: 25px;
+    margin: 18px 0px;
+}
+
+.member-bio {
+   text-align: justify;
+   display: block;
+   width: 270px;
+}
+
+
+/* Presentations Page **************************************************/
+iframe {
+    margin-top: 200px;
+    margin-bottom: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* Footer **************************************************************/
+footer {
+    /*position: fixed;*/
+    height: 50px;
+    width: 100%;
+}
+
+.footer-text {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Test *****/
+
