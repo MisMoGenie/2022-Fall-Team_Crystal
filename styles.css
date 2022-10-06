@@ -5,6 +5,11 @@ body {
 }
 
 /* Navbar ***********************************************************************/
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
 .navbar-brand {
     line-height: 23px;
 }
@@ -23,9 +28,42 @@ body {
     color: rgba(0, 0, 0, 0.543);
 }
 
+
 /* Problem ***********************************************************************/
 .text-box {
     width: 85vh;
+}
+
+/* Solution Characteristics *******************************************************/
+.characteristic-box {
+    width: 500px;
+    height: 175px;
+    margin: 5px;
+    padding: 20px;
+    text-align: left;
+
+    position: relative;
+    list-style-type: none;
+    box-sizing: content-box;
+    opacity: 1;
+}
+
+.title {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.icon {
+    width: 40px;
+    height: 88px;
+    float: left; 
+    margin-top: 4px;
+    margin-right: 18px;
+    font-size: 35px;
+}
+
+.characteristic-content {
+    margin-top: 4px; 
 }
 
 
@@ -36,7 +74,7 @@ body {
 
 .team-header {
     width: 85vh;
-    margin-top: 200px;
+    margin-top: 70px;
 }
 
 .team-member {
@@ -77,7 +115,25 @@ iframe {
     margin-right: auto;
 }
 
+/* Deliverables Page **************************************************/
+.diagram-name {
+    display: flex;
+    font-size: 25px;
+    margin: 18px 0px;
+    justify-content: center;
+    align-items: center;
+}
 
+.diagram {
+    width: 750px;
+    height: 300px;
+    margin: 150px 0px;
+}
+
+.diagram-image {
+    width: 750px;
+    height: 690px;
+}
 
 /* Footer **************************************************************/
 footer {
