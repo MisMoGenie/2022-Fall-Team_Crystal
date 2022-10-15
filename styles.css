@@ -6,16 +6,8 @@ body {
 
 /* Navbar ***********************************************************************/
 .navbar {
-    overflow: hidden;
     background-color: #333;
-}
-
-.navbar-brand {
-    line-height: 23px;
-}
-
-.lead text-secondary {
-    color: #7d7e80;
+    height: 70px;
 }
 
 .nav-item {
@@ -26,6 +18,42 @@ body {
 
 .nav-link {
     color: rgba(0, 0, 0, 0.543);
+}
+
+.nav-item:hover ul {     
+    opacity: 1;            
+    visibility: visible;
+}
+
+.nav_dropdown {
+    position: absolute;
+    top: 3rem;
+    background-color: rgba(255,255,255,.85);
+    width: 12rem;
+    padding: 2rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 200ms ease-in-out;
+    /*box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);*/
+}
+
+.nav_dropdown li {
+    list-style: none;
+}
+
+.nav_dropdown li a {
+    text-decoration: none;
+    padding: 0.2rem;
+    transition: background-color 200ms ease-in-out;
+    /*color: rgba(0, 0, 0, 0.543);*/
+    color: #191919;
+}
+
+.nav_dropdown li a:hover, .nav_dropdown li a:focus {
+    text-decoration: underline;
 }
 
 
