@@ -62,6 +62,25 @@ body {
     width: 85vh;
 }
 
+.text-box2 {
+    width: 70vw;
+    margin-bottom: 40px;
+}
+
+.background {
+    margin-bottom: 45px;
+}
+
+.text-box2 h5 {
+    text-align: center;
+}
+
+.col {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 /* Solution Characteristics *******************************************************/
 .characteristic-box {
     width: 500px;
