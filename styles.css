@@ -177,8 +177,13 @@ body {
 
 
 /* Presentations Page **************************************************/
-iframe {
+.pres_card {
     margin-top: 200px;
+    text-align: center;
+}
+
+iframe {
+    margin-top: 50px;
     margin-bottom: 150px;
     display: block;
     margin-left: auto;
