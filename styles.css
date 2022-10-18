@@ -206,6 +206,21 @@ iframe {
     margin: 5%;
 }
 
+/* Competition Matrix Page *********************************************/
+.matrix {
+    margin-top: 20%;
+    text-align: center;
+}
+
+.matrix-name {
+    font-size: 25px;
+}
+
+.matrix-image {
+    width: 110%;
+    margin-bottom: 215px;
+}
+
 /* Footer **************************************************************/
 footer {
     /*position: fixed;*/
