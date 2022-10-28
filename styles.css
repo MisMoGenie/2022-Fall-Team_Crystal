@@ -81,16 +81,18 @@ body {
     padding-left: 15px;
 }
 
-/* Carousel **********************************************************************/
-#carouselExampleInterval .carousel-inner .carousel-item {
+/* Carousel ************************************************************/
+.carousel-inner {
     height: 10vh;
+    width: 70vw;
+    padding: 10px 0 50px 0;
 }
 
-.carousel-inner{
+.carousel-title {
     width: 70vw;
-    padding: 50px;
-    /*max-height: 200px !important;*/
+    padding-top: 50px;
 }
+
 
 .carousel-control-prev {
     margin-left: -20%;
