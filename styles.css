@@ -81,6 +81,25 @@ body {
     padding-left: 15px;
 }
 
+/* Carousel **********************************************************************/
+#carouselExampleInterval .carousel-inner .carousel-item {
+    height: 10vh;
+}
+
+.carousel-inner{
+    width: 70vw;
+    padding: 50px;
+    /*max-height: 200px !important;*/
+}
+
+.carousel-control-prev {
+    margin-left: -20%;
+}
+
+.carousel-control-next {
+    margin-right: -20%;
+}
+
 /* Solution Characteristics *******************************************************/
 .characteristic-box {
     width: 500px;
