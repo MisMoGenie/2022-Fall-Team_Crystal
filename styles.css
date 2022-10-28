@@ -99,13 +99,23 @@ body {
 }
 
 /* Solution Characteristics *******************************************************/
+.solution-box {
+    width: 939px;
+    margin: 5px;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+    list-style-type: none;
+    box-sizing: content-box;
+    opacity: 1;
+}
+
 .characteristic-box {
     width: 500px;
     height: 175px;
     margin: 5px;
     padding: 20px;
     text-align: left;
-
     position: relative;
     list-style-type: none;
     box-sizing: content-box;
