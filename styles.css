@@ -239,6 +239,14 @@ iframe {
     margin: 5%;
 }
 
+/* Sprint Page *********************************************/
+.sprint_diagram {
+    width: 1200px;
+    height: auto;
+    margin: 10px 0px;
+}
+
+
 /* Competition Matrix Page *********************************************/
 .matrix {
     width: 1000px;
