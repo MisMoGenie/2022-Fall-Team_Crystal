@@ -246,6 +246,13 @@ iframe {
     margin: 10px 0px;
 }
 
+/* Labs Page *********************************************/
+.lab_diagram {
+    width: 2000px;
+    height: auto;
+    margin: 10px 0px;
+}
+
 
 /* Competition Matrix Page *********************************************/
 .matrix {
