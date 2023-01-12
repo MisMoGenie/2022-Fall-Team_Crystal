@@ -247,12 +247,29 @@ iframe {
 }
 
 /* Labs Page *********************************************/
-.lab_diagram {
-    width: 2000px;
-    height: auto;
-    margin: 10px 0px;
+.card-body {
+    min-height: 1px;
+    padding: 1.25rem;
 }
 
+.card-title {
+    display: block;
+    margin: 18px 0px;
+    text-align: center;
+}
+
+.lab-button {
+    display: inline-block;
+    background-color: #12505b;
+    color: #ffff;
+    border: 2px solid #12505b;
+    border-radius: 2px;
+    transition: all .4s ease;
+    width: 80%;
+    line-height: max(40px, 4vh);
+    margin-bottom: 10px;
+    text-decoration: none;
+}
 
 /* Competition Matrix Page *********************************************/
 .matrix {
